@@ -1,0 +1,19 @@
+/* a:not(.noicon)[href^="https:"]:after {
+    content: ""
+}
+
+a:not(.noicon)[href^="https:"]:before {
+    content: ""
+}
+
+a:not(.noicon)[href^="http:"]:after {
+    content: ""
+}
+
+a:not(.noicon)[href^="http:"]:before {
+    content: ""
+}
+
+a:not(.noicon)[target="_blank"]:after, a:not(.noicon)[rel=external]:after {
+    content: ""
+} */

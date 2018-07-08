@@ -1,0 +1,42 @@
+.icon {
+    max-width: 200px;
+}
+
+body {
+    background-image: url("../images/desktop.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+}
+
+html * {
+    font-family: 'Stylish', sans-serif !important;
+}
+
+.toolbar-icon {
+    max-width: 75px;
+}
+
+#nav a {
+    color: white;
+    font-size: 30px
+}
+
+#right-top a {
+    color: white;
+    float: right;
+    font-size: 30px
+}
+
+@media screen and (max-width: 768px) {
+    .toolbar {
+        max-width: 100px;
+    }
+    #nav a {
+        max-width: 200px;
+    }
+    #right-top a {
+        
+        float: none;
+        
+    }
+}
